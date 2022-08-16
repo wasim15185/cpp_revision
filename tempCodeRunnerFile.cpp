@@ -1,0 +1,1 @@
+getline(std::cin,str) ; // the for printing whole string 

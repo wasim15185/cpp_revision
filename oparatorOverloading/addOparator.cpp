@@ -59,9 +59,11 @@ int main()
 
     Complex c1(6,9) , c2(9,65) , c3 ;
 
+      
+
     c3=c1+c2 ; // this is happening beacuse of ' operator+ ' function  <-- This is Operator Overloading
 
-    c3= c1.add(c2) ; // <-- This is also Operator Overloading
+    //c3= c1.add(c2) ; // <-- This is also Operator Overloading 
 
 
     return 0;

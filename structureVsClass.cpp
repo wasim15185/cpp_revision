@@ -1,6 +1,7 @@
 /**
  * 
  * In C++ , Structer and Class are same but 
+ * 
  *  Diffrence between Structer and Class
  * 
  * Structer : In Structer by default all variables and methods  are public .
@@ -8,6 +9,8 @@
  * Class : In Class by default all variables and methods  are private .
  * 
  */
+
+#include<iostream>
 
 
 struct IamStructer
@@ -18,11 +21,12 @@ struct IamStructer
 };
 
 
-class IamClass{
+class IamClass
+{
 
-void display(){
+    void display(){
 
-} ;
+    } ;
 
 } ;
 
@@ -35,7 +39,9 @@ int main(int argc, char const *argv[])
 
     IamClass c;
 
+  
 
+  
 
     return 0;
 }
